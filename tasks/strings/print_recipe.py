@@ -33,7 +33,7 @@ def print_recipe() -> str:
     :return: отформатированная строка
     :rtype: str
     """
-    result = None
+    result = f"Рецепт {TITLE}:\n{RECIPE[0]},\n{RECIPE[1]},\n{RECIPE[2]},\n{RECIPE[3]},\n{RECIPE[4]}"
     return result
 
 
